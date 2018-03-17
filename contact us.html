@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css"  href="css/main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+    
+  </style>
+</head>
+<body>
+
+
+			<div class="header">
+        <nav class=" navbar navbar-expand-sm bg-light navbar-light" >
+          <div class="container-fluid">
+            <div class="navbar-header">
+          
+                    <img src="images/Logo.png" width="150px" hight="150px">
+            </div>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                              <center>
+                              <br>
+                              <li class="active"><font size="+4"><b><i>C&S Dev Co </i></b></font><br> 
+                                Civil Engineering andManagement  <br>Consultants
+                                                </a>      
+                              </li>
+                              </center>
+                            </ul>
+      <center>
+        
+           <ul class="nav navbar-nav navbar-right">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="index (1).html">Home</a></li>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="About Us.html">About Us</a></li>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <li><a href="Projects.html">What we do <br>and our <br>   Projects</a></li>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="Partners.html">Our People <br> and <br> Partners</a></li>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="contact us.html">Contact Us</a></li>
+          </ul>
+     </center>
+    </div>
+  </nav>
+
+
+<div id="contact" class="container"><br><br><br>
+ 
+
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Contact Us.</h3><br><br>
+      <p><span class="glyphicon glyphicon-map-marker"></span><b>Mailing Addresses</b></p>
+      <p>161 Fife Road <br>
+        Colombo 00500 <br>
+        Sri Lanka <br>
+        
+        </p>
+      <p><span class="glyphicon glyphicon-phone"></span><b> Phone:</b>+94 11 2586438</p>
+      <p>314 Ellsworth Drive <br>
+          Silver Spring, MD 20910 <br>
+          USA
+          </p>
+       <p><span class="glyphicon glyphicon-phone"></span> <b> Phone:</b>+1 301 850 7133</p>
+      <p><span class="glyphicon glyphicon-envelope"></span><b> Email:</b>  info@candsdevco.com</p>
+      <p><span class=""><b>Web:</b>www.candsdevcom.com</span></p>
+    </div>   
+
+    <div class="col-md-8">
+      <h3>Massege</h3><br>
+      <div class="row">
+        <div class="col-sm-12 form-group"><br>
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-12 form-group"><br>
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required><br>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="8"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                 <!-- Add Google Maps -->
+                  <div id="googleMap" style="height:400px;width:100%;"></div>
+                  <script>
+                  function myMap() {
+                  var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+                  var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+                  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                  var marker = new google.maps.Marker({position:myCenter});
+                  marker.setMap(map);
+                  }
+                  </script>
+                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+                  <!--
+                  To use this code on your website, get a free API key from Google.
+                  Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+                  -->
+
+						<footer class="container-fluid ">
+							<div class="container">
+  								<center>
+  									<ul class="pager">
+  									<a href="#">Previous</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  									<a href="#">Next</a>
+									</ul>
+								</center>	
+							</div>
+						</footer>  
+
+</body>
+</html>
